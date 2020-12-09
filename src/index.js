@@ -17,4 +17,4 @@ const options = yargs
   })
   .argv;
 
-readFile.getCustomerList();
+readFile.getCustomerList(options.fp);

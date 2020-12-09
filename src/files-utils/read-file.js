@@ -8,6 +8,5 @@ exports.getCustomerList = (
   const contents = fs.readFileSync(filepath, 'utf8');
   const jsonStringContent = contents.split('\n');
   const clientInformation = jsonStringContent.map((clientInfoJson) => JSON.parse(clientInfoJson));
-  console.log(clientInformation);
   return clientInformation;
 };
