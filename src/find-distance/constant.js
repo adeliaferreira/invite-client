@@ -1,0 +1,2 @@
+export const DUBLIN_OFFICE_LAT = 53.339428;
+export const DUBLIN_OFFICE_LONG = -6.257664;
