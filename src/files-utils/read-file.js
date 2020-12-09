@@ -1,6 +1,11 @@
-import {INPUT_CUSTOMERS_FILE_PATH} from './constant'
+import { INPUT_CUSTOMERS_FILE_PATH } from './constant';
 
-export function getCustomerList (filepath = INPUT_CUSTOMERS_FILE_PATH ) {
+var fs = require('fs');
 
-    return [];
+export default function getCustomerList(filepath = INPUT_CUSTOMERS_FILE_PATH) {
+ 
+    const contents = fs.readFileSync(filepath, 'utf8');
+    console.log(contents);
+ 
+    return contents;
 }
