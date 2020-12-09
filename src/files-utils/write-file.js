@@ -1,5 +1,5 @@
-import { OUTPUT_CUSTOMERS_IN_RANGE } from './constant';
+const constValue = require('./constant');
 
-export default function writeOutputFile(filepath = OUTPUT_CUSTOMERS_IN_RANGE) {
+exports.writeOutputFile = function (filepath = constValue.OUTPUT_CUSTOMERS_IN_RANGE) {
   return [];
-}
+};

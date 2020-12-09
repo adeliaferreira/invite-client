@@ -1,7 +1,6 @@
 #!/usr/bin/env node
-require('./files-utils')
-
 const yargs = require('yargs');
+const readFile = require('./files-utils/read-file');
 
 const options = yargs
   .usage('Usage: -lat <latitude>')
@@ -18,8 +17,4 @@ const options = yargs
   })
   .argv;
 
-const greeting = `invite-client, ${options.lat}! ${options.long}! ${options.fp}!`;
-
-console.log(greeting);
-
-getCustomerList();
+readFile.getCustomerList();
