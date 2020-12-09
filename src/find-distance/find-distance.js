@@ -1,9 +1,9 @@
-import { DUBLIN_OFFICE_LAT, DUBLIN_OFFICE_LONG } from './constant';
+const constValue = require('./constant');
 
 export default function getCustomersInsideRange(
   customersList,
-  officeLat = DUBLIN_OFFICE_LAT,
-  officeLong = DUBLIN_OFFICE_LONG,
+  officeLat = constValue.DUBLIN_OFFICE_LAT,
+  officeLong = constValue.DUBLIN_OFFICE_LONG,
 ) {
   return [];
 }
