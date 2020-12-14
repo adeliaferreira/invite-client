@@ -1,0 +1,13 @@
+2. Proudest Achievement
+
+Samsung has a mobile phone theme store, validate this themes 
+to be available in store is a manual process that gives more than two weeks.
+Our mission was reduce it using machine learning techniques. This project is 
+a web + mobile based application that uses a python model to validate this 
+themes. I was the only engineer responsible to develop this clients web and
+mobile, I'm proud of it because I can design, implement and delivery this in
+a way that solve client real world problem and gives very positive feedbacks
+from my managers while other projects engineers (Researchers and some assistants)
+are focused in create the machine learning models. In the start of this, it'd be an
+experimental research but with my work to create this client, in the end of day, it
+become a well finished product that really solve client problem and delivered results.
