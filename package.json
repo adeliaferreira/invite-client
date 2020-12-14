@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "mocha 'test/**/*.js' --recursive --timeout 60000 --exit",
     "lint": "eslint ./src --fix"
   },
   "repository": {
@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/adeliaferreira/invite-client#readme",
   "dependencies": {
+    "sinon": "^9.2.2",
     "yargs": "^13.2.4"
   },
   "devDependencies": {

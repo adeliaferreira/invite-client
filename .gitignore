@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+# Ignore output file
+src/data/customers-to-invite.txt
+
+#ignore mac file system
+.DS_Store
